@@ -135,5 +135,3 @@ INSERT INTO `phpvms_exams_settings` (`id`, `setting`, `value`, `setting_type`) V
 (3, 'EXAMCenter Closed Message', 'Sorry but the EXAMCenter Is Currently Closed (Edit this message in the EXAMCenter Admin panel)', 1),
 (4, 'EXAMCenter Welcome Message', 'EXAMCenter Welcome Message (Edit this message in the EXAMCenter Admin Panel)', 1),
 (5, 'EXAMCenter Admin Dispatch Exams', '1', 2);
-
-ALTER TABLE `phpvms_pilots` ADD `spent` float NOT NULL DEFAULT '0' AFTER `totalpay`;
