@@ -13,7 +13,7 @@ class Exams extends CodonModule
 {
     public function HTMLHead()
     {
-        $this->set('sidebar', 'exams/exams_sidebar.tpl');
+        $this->set('sidebar', 'exams/exams_sidebar.php');
     }
     public function NavBar()
     {
